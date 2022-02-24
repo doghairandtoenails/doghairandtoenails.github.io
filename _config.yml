@@ -1,3 +1,5 @@
+# Ref: https://pmarsceill.github.io/just-the-docs/docs/configuration/
+
 title: Dog Hair and Toe Nails
 email: doghairandtoenails@gmail.com
 description: The lint that is rattling around in Camerons head.
@@ -5,9 +7,12 @@ baseurl: ""
 url: "https://doghairandtoenails.github.io" 
 
 # Build settings
-theme: minima
+#theme: minima
+theme: "just-the-docs"
 plugins:
   - jekyll-feed
+
+logo: "/assets/images/logo.jpg"
 
 # Collections
 collections:
